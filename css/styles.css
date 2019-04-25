@@ -1,0 +1,381 @@
+
+/*ekoloth logo div alignment*/
+/*.ekoloth-logo
+{
+	width:380px;
+	height: auto;
+	margin: 60px auto;
+}*/
+
+.home-body{
+	background-color:#5f7a7e;
+}
+
+.about-body{
+	background-color:#d1d1c1;
+}
+/* navigation font styling*/
+.nav-link
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 4px;
+	margin-right: 3rem;
+	margin-bottom: 20px;
+	color:#913d41;
+
+}
+
+#about-nav{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 4px;
+	margin-right: 3rem;
+	margin-bottom: 20px;
+	color:#d1d1c1;
+
+}
+
+
+/*navbar alignment*/
+.navbar{
+	margin:0 auto;
+	background-color: #d1d1c1;
+
+}
+
+.navbar2{
+	margin:0 auto;
+	padding:10px;
+	background-color: #5f7a7e;
+
+}
+
+.main-content{
+	margin-top:12rem;
+}
+
+.content{
+	width:50%;
+
+}
+
+.btn {
+	 display: inline-block;
+    border: none;
+    padding:10px;
+    margin: 0;
+    text-decoration: none;
+    background: #3a3e41;
+    margin-top:10px;
+    font-weight: 600;
+    color: #d1d1c1;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background: #913d41;
+}
+
+.about-content{
+	display: flex;
+	justify-content: center;
+	margin-top:6rem;
+}
+
+.social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.fab{
+	margin-right: 30px;
+	font-size: 2rem;
+	color:#913d41;
+}
+
+.asset2{
+	width:100%;
+}
+
+
+.about-text{
+	font-size: 1rem;
+	color:#3a3e41;
+	font-weight: 300;
+}
+.know-more{
+	  -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+.about-title{
+	font-size: 6rem;
+	margin-bottom: 30px;
+	color:#913d41;
+	font-weight: 700;
+}
+
+.title-content{
+	padding-top:10px;
+	text-align: left;
+	margin:2rem 0rem 2rem 3rem;
+	display: flex;
+}
+
+/**/
+.nav-link:hover{
+	color:#5686c8;
+	font-weight: 700;
+}
+
+.portfolio-title{
+	color:#d1d1c1;
+	font-size: 9rem;
+	margin:0 auto;
+
+}
+
+.portfolio-subtitle{
+	color:#d1d1c1;
+	font-size: 2.5rem;
+	margin:0 auto;
+	font-weight: 200;
+
+}
+
+/*nav ul styled and aligned*/
+ul
+{
+	text-align: center;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+/*project. blue h1 styled*/
+.project-blue h1
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	letter-spacing: 8px;
+	padding-top:30px;
+	padding-bottom:20px;
+	width:60%;
+	margin:0 auto;
+}
+.asset{
+	width:80%;
+	margin:0 auto;
+	padding: 0;
+	position: static;
+}
+/*project blue link text decoration removed*/
+.project-blue
+{
+	text-decoration: none;
+/*	background-color: #913d41;*/
+	color:#d1d1c1;
+}
+
+.container-fluid{
+	margin-top:30px;
+	margin-right:0;
+}
+
+/* row aligned*/
+.row
+{
+	margin:0 auto;
+}
+
+/* a tag hover color and text decorated*/
+a:hover
+{
+	text-decoration: none;
+	color:#5686c8;
+}
+
+/* horizontal link width*/
+hr
+{
+	width:300px;
+}
+
+/* project bluw paragraph content styled*/
+.project-blue p
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 15pt;
+	padding:10px;
+	color:#282828;
+	width:80%;
+	margin:0 auto;
+}
+
+/*project blue check it out button*/
+#project-blue-button
+{
+	margin-bottom: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14pt;
+}
+
+/*female model- ali image styled*/
+.female-model img{
+	width:100%;
+	padding-top: 40px;
+}
+
+/*male model-ryan image styled*/
+.male-model img
+{
+	width:100%;
+	padding-top: 40px;
+}
+
+/*male model image. styled*/
+.men-models img
+{
+	width:100%;
+	padding-bottom:30px;
+}
+
+/*project blue aligned*/
+.project-blue
+{
+	text-align: right;
+}
+
+/*email form styled*/
+#exampleInputEmail1
+{
+	width:50%;
+	margin:0 auto;
+	margin-bottom: 30px;
+}
+
+/*sign up form panel styled*/
+.jumbotron
+{
+	text-align: center;
+	margin-top:30px;
+}
+
+
+
+/*nav given margin*/
+.nav
+{
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+/*men and women store container heading styled*/
+.container-fluid h2
+{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 200;
+	letter-spacing: 6px;
+	margin-top:20px;
+
+}
+
+/*men and women store container heading styled*/
+.container-fluid h3
+{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 16pt;
+	letter-spacing: 3px;
+}
+
+/*all pages footer styled*/
+.footer-nav{
+	margin:30px auto;
+}
+
+/*project blue page title styled*/
+.project-blue-title{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 800;
+	font-size: 30pt;
+	letter-spacing: 5px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+/*project blue content styled*/
+.project-blue-content{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14pt;
+	font-size: 30pt;
+	width:70%;
+	padding-top:15px;
+	margin:0 auto;
+	padding-bottom: 40px;
+	text-align:center;
+}
+
+/*project image tag overlay*/
+.overlay
+{
+    display:none;  
+}
+
+/*image hover overlay for the project-image*/
+.image:hover .overlay
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color: #993399;
+    top:0;
+    left:0;
+    display:inline-block;
+    text-align:center;
+    @extend.transition
+}
+
+/*project image tag sizeing and placement*/
+.image:hover .overlay p
+{
+  position: relative;
+}
+
+/*hover text styled */
+.text
+{
+  white-space: nowrap; 
+  color: #fff;
+  font-size: 20pt;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*hover header text styled*/
+.text h3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 800;
+	font-size: 22pt;
+	letter-spacing: -1px;
+	color: #fff;
+}

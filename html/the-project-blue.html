@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,300,400,500,600,700,800" rel="stylesheet">
+<head>
+	<title>Ekoloth</title>
+</head>
+<body class="about-body">
+
+<!-- navigation bar -->
+	<nav class="navbar2 navbar-expand-lg navbar-light" style="justify-content: center;">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto" style="margin:0 auto">
+			      <li class="nav-item">
+			        	<a class="nav-link" id="about-nav" href="../index.html">HOME</a>
+			      </li>
+			      <li class="nav-item">
+			        	<a class="nav-link" id="about-nav"href="about.html">ABOUT</a>
+			      </li>
+  			      <li class="nav-item">
+			        	<a class="nav-link" id="about-nav" href="the-project-blue.html">PORTFOLIO</a>
+			      </li>
+			      <li class="nav-item">
+			        	<a class="nav-link" id="about-nav" href="contact.html">CONTACT</a>
+			      </li>
+		    </ul>
+	    </div>
+	</nav>
+
+	<!-- container with carousel -->
+	<div class="container-fluid">
+		<div class="row" style=" width:100%; margin:0 auto;">
+			<div class="col-sm">
+	      		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <a href ="../html/graphicdesign.html" class="know-more"><img class="d-block w-100" src="../images/project-blue/project-blue2.jpg" alt="First slide"></a>
+					    </div>
+					    <div class="carousel-item">
+					      <a href ="../html/advertising.html"><img class="d-block w-100" src="../images/project-blue/project-blue1.jpg"" alt="Second slide"></a>
+					    </div>
+					    <div class="carousel-item">
+					      <a href ="../html/photography.html"><img class="d-block w-100" src="../images/project-blue/project-blue3.jpg" alt="Third slide"></a>
+					    </div>
+				  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+				</div>
+	
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- hover -->
+	<script type="text/javascript">
+
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggle('active');
+					});
+
+				 $('.image').hover(function(){     
+		        	$('.overlay').addClass('transition');
+		    	},     
+		    		function(){    
+		        $('.overlay').removeClass('transition');     
+		    	});
+			});
+		</script>
+</body>
+</html>
